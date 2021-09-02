@@ -273,3 +273,93 @@
     top: -500px;
     left: 500px;
 }
+
+
+/* testionial section */
+
+#testimonial {
+    background-color: #FFFDF5;
+}
+
+#testimonial {
+    content: "";
+    background: url(../Img/elpisgoldall.jpg) no-repeat center;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+#testimonial-continer {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+}
+
+#heading {
+    margin-top: 64px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#heading h3 {
+    font-size: 28px;
+    width: 320px;
+    text-align: center;
+    z-index: 1;
+}
+
+#circle-continer {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    top: -67px;
+    left: 565px;
+    z-index: 0;
+}
+
+#circle-continer img {
+    height: 40px;
+}
+
+
+/* card */
+
+#card-continer {
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    padding: 16px;
+    margin-left: 32px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -1px -1px 4px 1px rgb(165, 161, 161);
+}
+
+.icons {
+    display: inline;
+}
+
+.icons img {}
+
+.card-p {
+    margin-top: 24px;
+    font-size: 19px;
+}
+
+.card-auther {
+    margin-top: 24px;
+    font-size: 19px;
+    font-weight: 600;
+    opacity: 0.9;
+}
