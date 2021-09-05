@@ -139,6 +139,29 @@
     height: 65px;
 }
 
+#arrow {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -35px;
+    justify-content: center;
+    align-items: center;
+}
+
+#arrow p {
+    margin-right: 6px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+#arrow img {
+    height: 16px;
+}
+
+#arrow a {
+    text-decoration: none;
+}
+
 
 /* About me section */
 
@@ -246,8 +269,6 @@
     margin-bottom: 16px;
 }
 
-.map-text p {}
-
 .map-img img {
     height: 250px;
     width: 350px;
@@ -350,7 +371,8 @@
     display: inline;
 }
 
-.icons img {}
+
+/* .icons img {try} */
 
 .card-p {
     margin-top: 24px;
@@ -367,7 +389,8 @@
 
 /* footer section */
 
-#footer {}
+
+/* #footer {} */
 
 #footer-continer {
     /* border: 2px solid red; */
@@ -377,7 +400,8 @@
     align-items: center;
 }
 
-#footer-logo {}
+
+/* #footer-logo {} */
 
 #footer-logo img {
     cursor: pointer;
@@ -421,7 +445,8 @@
     cursor: pointer;
 }
 
-.icons p {}
+
+/* .icons p {} */
 
 #copyright {
     display: flex;
@@ -429,9 +454,11 @@
     margin: 0px 120px;
 }
 
-#copy {}
 
-#copy p {}
+/* #copy {} */
+
+
+/* #copy p {} */
 
 #privacy {
     display: flex;
