@@ -234,3 +234,97 @@
     background-color: rgb(255, 255, 255);
     height: 350px;
 }
+
+
+/* //million */
+
+#million {
+    /* border: 2px solid red; */
+    padding: 0px 120px;
+    height: 450px;
+}
+
+#million-header {
+    /* border: 2px solid rgb(0, 74, 158); */
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+#million-header h1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+}
+
+#million-header h2 {}
+
+#million-header p {
+    color: #FFBD00;
+    margin-left: 12px;
+}
+
+#million-continer {
+    /* border: 2px solid rgb(238, 255, 0); */
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.texte {
+    /* border: 2px solid rgb(255, 0, 221); */
+    display: flex;
+    flex-direction: row;
+    background: #FFBD00;
+    height: 80px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.texte-box {
+    /* border: 2px solid rgb(0, 217, 255); */
+    padding: 4px;
+    margin: 4px;
+}
+
+.texte-box h4 {
+    color: #212529;
+    font-weight: 400;
+}
+
+.texte-box p {
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+.texte-hr {
+    height: 30px;
+    margin: 4px;
+    background-color: #2125299a;
+    border: 1px solid #2125298f;
+}
+
+#tick-continer {
+    /* border: 2px solid rgb(208, 255, 0); */
+    margin-left: 48px;
+    margin-top: -18px;
+}
+
+.tick {
+    /* border: 2px solid rgb(0, 81, 255); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    margin: 4px;
+}
+
+.tick img {
+    margin-right: 8px;
+}
+
+.tick p {
+    color: #212529;
+    font-size: 20px;
+}
