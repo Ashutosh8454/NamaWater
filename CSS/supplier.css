@@ -232,7 +232,7 @@
 
 #why2 {
     background-color: rgb(255, 255, 255);
-    height: 350px;
+    /* height: 350px; */
 }
 
 
@@ -327,4 +327,137 @@
 .tick p {
     color: #212529;
     font-size: 20px;
+}
+
+
+/* subfooter section */
+
+#subfooter {
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+
+#subfooter::before {
+    content: "";
+    background-color: #042780d7;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 573px;
+}
+
+#subfooter-continer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 120px;
+    overflow: hidden;
+}
+
+#text-play {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    position: relative;
+    top: 50px;
+}
+
+#text-play h4 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#playstore {}
+
+#playstore img {
+    margin: 24px 8px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#mobile-screnshort {
+    position: relative;
+    left: 70px;
+    top: 100px;
+    overflow: hidden;
+}
+
+
+/* footer section */
+
+#footer {}
+
+#footer-continer {
+    /* border: 2px solid red; */
+    margin: 88px 120px;
+    display: flex;
+    align-items: center;
+}
+
+#footer-logo {}
+
+#footer-logo img {
+    cursor: pointer;
+}
+
+#list-of {
+    /* border: 2px solid red; */
+    width: 500px;
+    position: relative;
+    left: 550px;
+    top: 30px;
+}
+
+.list-of1 {
+    /* border: 2px solid rgb(15, 216, 109); */
+    display: flex;
+    width: 550px;
+    margin-bottom: 30px;
+}
+
+.list-of1 ul {
+    display: flex;
+}
+
+.list-of1 ul li {
+    list-style: none;
+}
+
+.list-of1 ul li a {
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    margin-left: 16px;
+}
+
+.icons img {
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.icons p {}
+
+#copyright {
+    display: flex;
+    align-items: center;
+    margin: 0px 120px;
+}
+
+#copy {}
+
+#copy p {}
+
+#privacy {
+    display: flex;
+    position: relative;
+    left: 500px;
+}
+
+#privacy p {
+    margin-left: 20px;
+    cursor: pointer;
 }
